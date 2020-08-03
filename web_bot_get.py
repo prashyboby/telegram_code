@@ -159,5 +159,5 @@ while True:
 #%%
 ## to be removed
 
-resp = requests.get("https://api.telegram.org/bot1020963580:AAGF6VQGbpzDz3OlgxtRyVqrhUI1LgyzS-s/getupdates?limit=100")
+resp = requests.get("https://api.telegram.org/bot<number>:<unique_code_from_webhook>/getupdates?limit=100")
 resp.json()["result"]
